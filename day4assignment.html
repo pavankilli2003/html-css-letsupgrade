@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>SingUp Form</title>
+</head>
+<style>
+header {
+            border: 1px solid rgb(223, 40, 40);
+            border-top: 1px solid rgb(206, 127, 49);
+            border-left: 1px solid rgb(18, 189, 189);
+            margin-top: 1%;
+            margin-bottom: 1%;
+            max-width: 100%;          
+        }
+</style>
+<body style="background-color: rgb(34, 11, 116);">
+    <h1 style="text-align: center;">Community SignUp Form</h1>
+    <header style="background-color: rgb(150, 202, 52);">
+    <form>
+        <fieldset>
+            <legend>Personal Details </legend>
+            <label>First Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter First Name"><br><br>
+            <label>Last Name:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter Last Name"><br><br>
+            <label>User Name</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter User Name"><br><br>
+            <label>Mail id:</label><br>
+            <input type="email" name="email" id ="email" placeholder="Enter Email-id" ><br><br>
+            <label>Date of Birth:</label><br>
+            <input type="date" name="date" id="date"><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male">Male <br>
+            <input type="radio" name="gender" value="Female">Female <br>
+            <input type="radio" name="gender" value="Other">Other <br>
+            <input type="radio" name="gender" value="Prefered not to say">Prefered not to say <br>
+        </fieldset><br>
+    </header>
+
+    <header style="background-color: rgb(236, 127, 209);">
+        <fieldset>
+            <legend>Courses & Batches</legend>
+            <label for="courses">Select Courses</label><br>
+            <input type="checkbox" name="courses" value="html css">Html/Css <br>
+            <input type="checkbox" name="courses" value="python">Javascript <br>
+            <input type="checkbox" name="courses" value="javascript">Python <br>
+            <input type="checkbox" name="courses" value="python">Java <br><br>
+
+             <label for="Batches">Select Batches</label><br>
+             <input type="radio" name="month" value="Feburary">Feburary <br>
+             <input type="radio" name="month" value="March">March <br>
+             <input type="radio" name="month" value="April">April <br>
+             <input type="radio" name="month" value="May">May <br>
+             <input type="radio" name="month" value="June">June <br>
+        </fieldset><br>
+    </header>
+
+            <input type="submit" class="submit"  value="Click to submit">
+    </form>
+</body>
+</html>
