@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family:'Times New Roman', Times, serif
+    
+}
+
+img {
+    width: 115px;
+    height: 110px;
+    margin: 25px;
+    border-radius: 100%;
+}
+
+.navbar {
+    display: flex;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    margin: 10px;
+    color: rgb(4, 129, 212);
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    font-size: 25px;
+    /* padding: 35px; this is home,abiut*/
+    margin: 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+}
+#product   {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    padding: 5px 150px;
+    justify-content: center;
+    text-align: center;
+}
+
+span{
+    color: rgb(21, 19, 148);
+}        
+ p { 
+    text-align: center;
+    font-size: 1.9rem;
+    opacity: 0.8;
+    background-color:rgb(0, 0, 0);
+    border-radius: 10px;
+    border: 2px solid rgb(167, 25, 25);
+    color:springgreen;
+}
+h1{
+    color: rgb(184, 16, 156);
+    font-size: 350%;
+}

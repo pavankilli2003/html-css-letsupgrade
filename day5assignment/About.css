@@ -1,0 +1,28 @@
+body {
+    background-color:rgb(5, 30, 85);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    color:rgb(198, 38, 204);
+    font-size: 60px;
+    margin-left: 500px;
+}
+
+h2{
+    color: greenyellow;
+    text-align: center;
+}
+
+p{
+    color: rgb(111, 17, 148);
+    font-size: 30px;
+    text-align: justify;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+video{
+    margin-left: 500px;
+    margin-top: -50px;
+}
